@@ -7,8 +7,8 @@ class DefaultConfig:
     PORT = 3978
     APP_ID = os.environ.get("MicrosoftAppId", "")
     APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "")
-    LUIS_APP_ID = os.environ.get("LuisAppId", "a98cc641-b332-403d-8e75-c8ca3ffe7bd4")
-    LUIS_API_KEY = os.environ.get("LuisAPIKey", "47a14da1b29c494aa8c5c27a93e47070")
+    LUIS_APP_ID = os.environ.get("LuisAppId", "d621f3cd-6d23-48a7-9581-b41aa80c4b0b")
+    LUIS_API_KEY = os.environ.get("LuisAPIKey", "04a56dae074d46c18b122568ef6474e8")
     # LUIS endpoint host name, ie "westus.api.cognitive.microsoft.com"
-    LUIS_API_HOST_NAME = os.environ.get("LuisAPIHostName", "switzerlandnorth.api.cognitive.microsoft.com")
-    APPINSIGHTS_INSTRUMENTATION_KEY = os.environ.get("INSTRUMENTATION_KEY", "698adf12-cc2c-4701-8b47-d68f39a3bb79")
+    LUIS_API_HOST_NAME = os.environ.get("LuisAPIHostName", "francecentral.api.cognitive.microsoft.com")
+    APPINSIGHTS_INSTRUMENTATION_KEY = os.environ.get("INSTRUMENTATION_KEY", "5a851946-6687-43a8-ab57-72221a74b56e")
